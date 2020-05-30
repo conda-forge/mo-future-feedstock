@@ -1,5 +1,5 @@
 {% set name = "mo-future" %}
-{% set version = "3.51.20059" %}
+{% set version = "3.70.20151" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3d1bfce849d26f56ad6db05ae8e783756ac0d195bc55942a775d9013d3cc5c04
+  sha256: f2511ca35a0f84ae342aa3839e89d45746b9e23e761e531617717f10372336c8
 
 build:
   number: 0
