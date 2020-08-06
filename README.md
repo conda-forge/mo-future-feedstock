@@ -5,7 +5,7 @@ Home: https://github.com/klahnakoski/mo-files
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: More future! Make Python 2/3 compatibility a bit easier
 
