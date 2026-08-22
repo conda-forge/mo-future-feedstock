@@ -1,13 +1,13 @@
 {% set name = "mo-future" %}
-{% set version = "7.685.25166" %}
+{% set version = "7.687.26234" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0846fc97bb12a688f44d98b246dab69a5757ab68b46ed1a641f2df317d455bed
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: b778c2afeb446284ebc8ec3dda7278b1b71d5ed98f9779cc63ef33c57cf7ab5c
 
 build:
   number: 0
