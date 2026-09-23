@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mo-future
-  version: "7.687.26234"
+  version: "7.688.26259"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: b778c2afeb446284ebc8ec3dda7278b1b71d5ed98f9779cc63ef33c57cf7ab5c
+  sha256: 0b93bdee65eac276246a57bfbecb062256edebdf5b22f76297aee8f343b364a9
 
 build:
   number: 0
